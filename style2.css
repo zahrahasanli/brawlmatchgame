@@ -1,0 +1,55 @@
+body{
+    background-color:darkslategray;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin:0
+}
+#container{
+    /*border:1px solid blue;*/
+    align-items:center;
+    display:flex;
+    flex-direction: column;
+}
+.gamebox{
+    width:500px;
+    height: 500px;
+    /*border:1 px solid red; */
+    display: flex;
+    flex-wrap:wrap;
+    padding:10px;
+    background-color: pink;
+    
+}
+.cards{
+    width:100px;
+    height:100px;
+    background-color:bisque;
+    border:1px solid blue;
+    margin:10px;
+    border-radius: 30%;
+}
+.button{
+    margin-top: 15px;
+    margin-bottom:15px;
+    border-radius:10px;
+    /*border:1px solid purple;*/
+    text-align:center;
+    width:150px;
+    background-color:aquamarine;
+    padding:5px;
+    text-transform: uppercase;
+    color:white;
+}
+.title{
+    font-size:30px;
+    font-weight:bolder;
+
+}
+.cards img{
+    height:100px;
+    width:100px;
+    border-radius: 30%;
+}
